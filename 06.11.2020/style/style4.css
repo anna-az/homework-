@@ -1,0 +1,66 @@
+main {
+    display:flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: center;    
+    }
+    
+    
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+}
+
+
+section:first-child .diagram{
+    width: 100%;
+    height: calc(70% - 34px);
+    background-color: #e18080;
+}
+
+section:nth-child(2) .diagram{
+    width: 100%;
+    height: calc(50% - 34px);
+    background-color: #979bde;
+}
+
+section:nth-child(3) .diagram{
+    width: 100%;
+    height: calc(30% - 34px);
+    background-color: #2dd121;
+}
+
+section:nth-child(4) .diagram{
+    width: 100%;
+    height: calc(100% - 34px);
+    background-color: #d3d618;
+}
+
+section:nth-child(5) .diagram{
+    width: 100%;
+    height: calc(90% - 34px);
+    background-color: #dea64b;
+}
+
+section:nth-child(6) .diagram{
+    width: 100%;
+    height: calc(60% - 34px);
+    background-color: #97deda;
+}
+
+section:nth-child(7) .diagram{
+    width: 100%;
+    height: 10%;
+    background-color: #daa1ed;
+}
+
+section:nth-child(8) .diagram{
+    width: 100%;
+    height: calc(35% - 34px);
+    background-color: #68038a;
+}
+

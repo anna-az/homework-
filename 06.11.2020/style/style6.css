@@ -1,0 +1,126 @@
+
+main {
+    color: white;
+    background-color: brown;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+form {
+    width: 100%;
+}
+
+section {
+    display: flex;  
+    padding: 15px 0;
+}
+
+span {
+    color: red;
+}
+
+div.fields {
+    width: 70%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.main-label {
+    width: 30%;
+    
+}
+
+.field-box {
+    margin: 2px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.left {
+    justify-content: left;
+}
+
+#number-field {
+    text-align: right;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+div.column {
+    display: flex;
+    flex-direction: column; 
+}
+
+section:first-child input {
+    width: 96%;
+}
+
+section:nth-child(3) select {
+    width: 100%;
+    margin: 0;
+}
+
+section:nth-child(5) input {
+    width: 93%;
+}
+
+section:nth-child(7) .field-box label {
+    color: white;
+    font-size: 16px;
+}
+
+
+.selection-35 {
+    width: 35%;
+}
+
+.selection-24 {
+    width: 24%;
+}
+
+.selection-three {
+    width: calc(100% / 3);
+}
+
+.field-box label {
+    font-size: 14px;
+    color: burlywood;
+}
+
+#am-pm {
+    height: 54%;
+}
+
+
+@media screen and (max-width: 375px) {
+    div.fields {
+        flex-direction: column; 
+    }
+    section {
+        flex-direction: column; 
+    }
+
+    .main-label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    div.fields { 
+        width: 100%;
+    }
+    .field-box {
+        margin-left: 0px;
+    }
+    section:nth-child(5) input {
+        width: 100%;
+    }
+    section:nth-child(7) .field-box label {
+        color: burlywood;
+    }
+}

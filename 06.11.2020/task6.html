@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/style6.css">
+    <title>Task 6</title>
+</head>
+<body>
+    <menu class="main_menu">
+        <li><a href="index.html">Task 1</a></li>
+        <li><a href="task2.html">Task 2</a></li>
+        <li><a href="#">Task 3</a></li>
+        <li><a href="task4.html">Task 4</a></li>
+        <li><a href="task5.html">Task 5</a></li>
+        <li><a href="task6.html" id="last-a">Task 6</a></li>
+    </menu>
+    
+    <main>
+        <h1>Hotel Booking</h1>
+        <form>
+            <section>
+                <label for="full-name" class="main-label">Name <span>*</span></label>
+                <div id="full-name" class="fields">
+                    <div class="field-box">
+                        <input type="text" id="name" class="field-label">
+                        <label for="name">First Name</label>
+                    </div>
+                    <div class="field-box">
+                        <input type="text" id="last-name" class="field-label">
+                        <label for="last-name">Last Name</label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="email-name" class="main-label">E-mail <span>*</span></label>
+                <div id="email-name" class="fields">
+                    <div class="field-box">
+                        <input type="email" id="email" class="field-label" placeholder="ex: myname@example.com">
+                        <label for="email">example@example.com</label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="room-name" class="main-label">Room type</label>
+                <div id="room-name" class="fields">
+                    <div class="field-box">
+                        <select class="field-label">
+                            <option value="all"></option>
+                            <option value="room_1">Room 1</option>
+                            <option value="room_2">Room 1</option>
+                            <option value="room_3">Room 1</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="guests-name" class="main-label">Number of Guests <span>*</span></label>
+                <div id="guests-name" class="fields">
+                    <div class="field-box">
+                        <input type="number" id="number-field" class="field-label" value="0" min="0">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="arrival-name" class="main-label">Arrival Date & Time <span>*</span></label>
+                <div id="arrival-name" class="fields column">
+                    <div class="field-box">                     
+                        <input type="date" id="number-field"  class="field-label" value="2019-09-25">
+                    </div>
+                    <div class="field-box row" >                     
+                        <div class="data-view column selection-35">
+                            <select class="field-label">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11" selected>11</option>
+                                <option value="12">12</option>
+                            </select>  
+                            <label for="hour-field">Hour</label>
+                        </div>
+                        <div class="data-view column selection-35">
+                            <select class="field-label" id="minute-field">
+                                <option value="0">00</option>
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                                <option value="40" selected>40</option>
+                                <option value="50">50</option>
+                            </select>
+                            <label for="hour-field">Minutes</label>
+                        </div>
+                        <div class="data-view column selection-24">
+                            <select class="field-label" id="am-pm">
+                                <option value="am">AM</option>
+                                <option value="pm">PM</option>
+                            </select>   
+                        </div>                 
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="departure-name" class="main-label">Departure Date <span>*</span></label>
+                <div id="departure-name" class="fields">
+                    <div class="field-box row">                     
+                        <div class="data-view column selection-three">
+                            <select class="field-label" id="month-field">
+                                <option value="1" selected>January</option>                              
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12" selected>December</option>
+                            </select>  
+                            <label for="month-field">Month</label>
+                        </div>
+                        <div class="data-view column selection-three">
+                            <select class="field-label" id="day-field">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5" selected>5</option>
+                                <option value="6">6</option>
+                            </select>
+                            <label for="day-field">Day</label>
+                        </div>
+                        <div class="data-view column selection-three">
+                            <select class="field-label" id="year-field">
+                                <option value="2020" selected>2020</option>
+                                <option value="2020">2021</option>
+                            </select>   
+                            <label for="year-field">Year</label>
+                        </div>                 
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="pickup-name" class="main-label">Free Pickup?  <span>*</span></label>
+                <div id="pickup-name" class="fields column">
+                    <div class="field-box row left">
+                        <input type="radio" name="pickup" id="pickup-field-yes">
+                        <label for="pickup-field-yes" >Yes Please! - Pick me up on arrival</label>
+                    </div>
+                    <div class="field-box row left">
+                        <input type="radio" name="pickup" id="pickup-field-no">
+                        <label for="pickup-field-no">No Thanks - I'll make my own way there</label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="flight-name" class="main-label">Flight Number</label>
+                <div id="flight-name" class="fields">
+                    <div class="field-box">
+                        <input type="text" class="field-label" >
+                    </div>
+                </div>
+            </section>
+            <section>
+                <label for="special-name" class="main-label">Special Requests</label>
+                <div id="special-name" class="fields">
+                    <div class="field-box">
+                        <textarea class="field-label"></textarea>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

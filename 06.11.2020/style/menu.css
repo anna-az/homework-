@@ -1,0 +1,20 @@
+menu.main_menu {
+    background-color: #fe8900;
+    padding: 10px; /* для красоты */
+}
+
+menu.main_menu li {
+    display: inline-block;
+}
+
+
+
+menu.main_menu li a {
+    padding: 10px 20px 10px 20px;
+    border-right: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+menu.main_menu li a#last-a {
+    border-right: none;
+}

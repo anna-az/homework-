@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+
+.columns-container {
+    display: flex;
+}
+
+.columns-container .column {
+    width: 100%;
+    padding: 10px;
+}
+

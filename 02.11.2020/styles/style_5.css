@@ -1,0 +1,28 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 5px 5px 5px;
+  }
+table {
+    width: 90%;
+}
+
+th {
+    background-color: #444444;
+    color: white;
+}
+
+tr:nth-child(2n + 1) {
+    background-color: #efefef;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
+td:nth-child(4) {
+    text-align: center;
+}
+
+td:last-child{
+    text-align: right;
+}
