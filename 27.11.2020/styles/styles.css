@@ -1,0 +1,14 @@
+dl dt {
+	font-weight: bold;
+	float: left;
+	margin-right: 5px;
+	text-transform: capitalize;
+}
+
+dl dt::after {
+	content: ':';
+}
+
+dl dd {
+    text-transform: capitalize;
+}
