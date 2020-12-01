@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table td{
+    padding: 10px;
+    border: 3px solid white;
+    width: 26px;
+    background-color: #eee;
+}
+
+table tr:first-child td p{
+    font-weight: bold;
+    height: 100px;
+    margin: 0;
+}
+
+table tr:first-child td p.rotate{
+    writing-mode: vertical-lr;
+    margin: auto;
+}
+table tr:first-child td p.horizontal{
+    text-align: center;
+}
+
+table tr:first-child td:first-child {
+    background: none;    
+}
+
+table tr:last-child td {
+    height: 26px;
+}
+
+table tr:last-child td:first-child {
+    font-weight: bold;
+}
