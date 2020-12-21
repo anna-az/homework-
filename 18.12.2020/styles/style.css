@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.flex div {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.name1, .name2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#player1_power, #player2_power {
+    margin-bottom: 20px;
+}
+
+#player1, #player2 {
+    text-align: center;
+}
+
+#history {
+    text-align: center;
+}
+
+#game_over {
+    text-align: center;
+    margin: 50px auto;
+    color: red;
+}
+
+button {
+    width: 105px;
+    height: 30px;
+}

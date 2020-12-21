@@ -1,0 +1,41 @@
+<!-- Task 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>18.12.2020</title>
+</head>
+<body>
+    <div class="flex">
+        <div>
+            <p class="name1"></p>
+            <span>Health: </span><span id="player1_health"></span><br>
+            <span>Power: </span><span id="player1_power"></span>
+        </div>
+        <div>
+            <p class="name2"></p>
+            <span>Health: </span><span id="player2_health"></span><br>
+            <span>Power: </span><span id="player2_power"></span>
+        </div>
+    </div>
+
+    <div id="player1">
+        <p class="name1"></p>
+        <button onclick="player1.hit()">Hit</button>
+        <button onclick="player1.heal()" id="heal1">Heal</button>
+        <button onclick="player1.extra()" id="extra1">Double hit</button>
+    </div>
+    <div id="player2" style="display: none;">
+        <p class="name2"></p>
+        <button onclick="player2.hit()">Hit</button>
+        <button onclick="player2.heal()" id="heal2">Heal</button>
+        <button onclick="player2.extra()" id="extra2">Additional heal</button>
+    </div>
+    <p id="game_over"></p>
+    <div id="history"></div>
+    <script src="scripts/task_2.js"></script>
+</body>
+</html>
